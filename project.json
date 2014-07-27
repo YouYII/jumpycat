@@ -1,0 +1,18 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 2,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["menus"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/point.js"
+    ]
+}
