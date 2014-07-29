@@ -307,7 +307,7 @@ var Game =  cc.Layer.extend({
         var size = cc.director.getWinSize();
         var share = cc.MenuItemImage.create(res.shareBTN_png,res.shareBTN_png,res.shareBTN_png,function(){
 
-        //},this);
+        },this);
         var restart = cc.MenuItemImage.create(res.replay_png,res.replay_png,res.replay_png,function(){
             cc.director.runScene(Game.scene());
         },this);
